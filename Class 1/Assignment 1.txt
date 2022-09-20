@@ -1,0 +1,58 @@
+1. What is web?
+--> Web is an interconnected system of public webpages accessible through the Internet.
+-->The Web is the common name for the World Wide Web, a subset of the Internet consisting of the pages 
+that can be accessed by a Web browser.
+
+
+2. Internet History
+--> The first workable prototype of the Internet came in the late 1960s with the creation of ARPANET, 
+or the Advanced Research Projects Agency Network. Originally funded by the U.S. Department of Defense,
+ARPANET used packet switching to allow multiple computers to communicate on a single network.
+
+    On October 29, 1969, ARPAnet delivered its first message: a “node-to-node” communication from one computer to 
+another. (The first computer was located in a research lab at UCLA and the second was at Stanford; 
+each one was the size of a small house.) 
+The message—“LOGIN”—was short and simple, but it crashed the fledgling ARPA network anyway: 
+The Stanford computer only received the note’s first two letters.
+
+    ARPANET adopted TCP/IP on January 1, 1983, and from there researchers began to assemble the “network of networks” 
+that became the modern Internet. The online world then took on a more recognizable form in 1990, when computer scientist 
+Tim Berners-Lee invented the World Wide Web. While it’s often confused with the internet itself, the web is actually just
+the most common means of accessing data online in the form of websites and hyperlinks. 
+
+    The web helped popularize the internet among the public, and served as a crucial step in developing the vast trove of 
+information that most of us now access on a daily basis.
+
+
+3. Difference between web, website and web page
+--> A website is simply interconnected system of public webpages accessible through the Internet.
+
++------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
+| Webpage                                                                                              | Website                                                                             |
++------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
+| Webpage consists of content regarding a single entity type                                           | Website constitutes content regarding several entities                              |
++------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
+| A direct URL link or a website can be used to access it                                              | A domain address is used to access it                                               |
++------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
+| A combination of webpages is created using HTML and CSS                                              | Information is in HTML language                                                     |
++------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
+| An individual hypertext document linked under a website                                              | A collection of multiple pages hosted on the server                                 |
++------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
+| Stores the contents or resources that are to be displayed on a website                               | Is a place used to display the content                                              |
++------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
+| Comparatively, less complex                                                                          | More complex to develop                                                             |
++------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
+| Less time to develop                                                                                 | Takes more time to develop                                                          |
++------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
+| The web page address of any specific website is directly dependent on the website address (domain).  | Website address (domain) is independent of webpage address.                         |
+| Webpage will not work if the domain is down                                                          | If the webpage is deleted for any reason, the website will still continue to work.  |
+|                                                                                                      | All other linked webpages will also work as usual                                   |
++------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
+| Examples: Contact page, Registration Page, Service Page, About Us page and so on                     | Examples: Flipkart.com, Nykaa.com, Amazon.com and more                              |
++------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
+
+4 Web development Tools
+--> Web developer tools, also called DevTools, are programs that allow professionals to create software and debug and test their code on web development projects. These tools also help individuals 
+review the user interface of a web application or website. While these tools may not help developers build an application or website, they allow them to review the security and aesthetic features and 
+design custom website elements. They may be available to web developers as add-ons and built-in features in web browsers. When choosing a program, professionals may consider various factors, including 
+ease of use, scalability, security, functionality and cost.
