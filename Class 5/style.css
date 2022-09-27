@@ -1,0 +1,42 @@
+ *{
+   color: bisque;
+   box-sizing: border-box;
+}
+
+.name-any{
+    color: aquamarine;
+}
+#id_name{
+    color: blue;
+}
+h3{
+    color: purple;
+}
+
+body{
+    margin-top: 15px;
+    background-color: olive;
+    width: 500px;
+    height: 500px;
+}
+div{
+    background-color: aqua;
+}
+.saifur{
+    background-color: chocolate;
+    color:aqua;
+    width: 200px;
+    height: 200px;
+    margin: 150px;
+    /* box-sizing: border-box; */
+    border: 15px solid palevioletred;
+}
+.dhaka{
+    background-color: red;
+    text-align: center;
+    color: azure;
+    width: 200px;
+    height: 200px;
+    /* padding-left: 30px; */
+    padding-top: 30px; 
+}
