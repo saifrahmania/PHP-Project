@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home</title>
+	<style type="text/css">
+		
+		* {
+			box-sizing: border-box;
+		}
+		
+		
+	/*	.one{
+			border: 1px solid red;
+			height: 50px;
+			width: 30%;
+			float: left;
+		}
+		.two{
+			border: 1px solid green;
+			height: 50px;
+			width: 70%;
+			float: left;
+		}*/
+	.col-one {
+		width:  8.33%;
+	}
+	.col-two {
+		width:  16.66%;
+	}
+	.col-three {
+		width:  25%;
+	}
+	.col-four {
+		width:  33.33%;
+	}
+	.col-five {
+		width:  41.66%;
+	}
+	.col-six {
+		width:  50%;
+	}
+	.col-seven {
+		width:  58.33%;
+	}
+	.col-eight {
+		width:  66.66%;
+	}
+	.col-nine {
+		width:  75%;
+	}
+	.col-ten {
+		width:  83.33%;
+	}
+	.col-eleven {
+		width:  91.66%;
+	}
+	.col-twelve {
+		width:  100%;
+	}
+
+	[class*='col-'] {
+		border: 1px solid green;
+		float: left;
+		height: 100px;
+	}
+
+@media only screen and (min-width: 320px) and (max-width: 760px) {
+	.col-one-sd {
+		width:  8.33%;
+	}
+	.col-two-sd {
+		width:  16.66%;
+	}
+	.col-three-sd {
+		width:  25%;
+	}
+	.col-four-sd {
+		width:  33.33%;
+	}
+	.col-five-sd {
+		width:  41.66%;
+	}
+	.col-six-sd {
+		width:  50%;
+	}
+	.col-seven-sd {
+		width:  58.33%;
+	}
+	.col-eight-sd {
+		width:  66.66%;
+	}
+	.col-nine-sd {
+		width:  75%;
+	}
+	.col-ten-sd {
+		width:  83.33%;
+	}
+	.col-eleven-sd {
+		width:  91.66%;
+	}
+	.col-twelve-sd {
+		width:  100%;
+	}
+}
+
+@media only screen and (min-width: 761px) and (max-width: 1080px) {
+	.col-one-md {
+		width:  8.33%;
+	}
+	.col-two-md {
+		width:  16.66%;
+	}
+	.col-three-md {
+		width:  25%;
+	}
+	.col-four-md {
+		width:  33.33%;
+	}
+	.col-five-md {
+		width:  41.66%;
+	}
+	.col-six-md {
+		width:  50%;
+	}
+	.col-seven-md{
+		width:  58.33%;
+	}
+	.col-eight-md {
+		width:  66.66%;
+	}
+	.col-nine-md {
+		width:  75%;
+	}
+	.col-ten-md{
+		width:  83.33%;
+	}
+	.col-eleven-md {
+		width:  91.66%;
+	}
+	.col-twelve-md {
+		width:  100%;
+	}
+}
+
+	.container {
+		width: 90%;
+		height: 100vh;
+		margin: 0 auto;
+		border: 2px solid;
+	}
+	.row{
+		border: 2px solid red;
+	}
+	.row:after{
+		content: " ";
+		display: block;
+		clear: both;
+		border: 2px solid red;
+	}
+
+	</style>
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-two col-twelve-sd col-six-md">1</div>
+			<div class="col-eight col-twelve-sd col-six-md">2</div>
+			<div class="col-one col-twelve-sd col-six-md">3</div>
+			<div class="col-one col-twelve-sd col-six-md">4</div>
+		</div>
+		<div class="row">
+			<div class="col-twelve ">5</div>
+		</div>
+		<div class="row">
+			<div class="col-four"></div>
+			<div class="col-four"></div>
+			<div class="col-four"></div>
+		</div>
+	</div>
+
+</body>
+</html>

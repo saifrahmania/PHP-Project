@@ -1,0 +1,93 @@
+/* .one{
+    height: 100px;
+    width: 100px;
+    background: #000;
+}
+
+.two{
+    height: 100px;
+    width: 100px;
+    background: rgb(26, 26, 206);
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.col-1, col {
+    width: 8.33%;
+    float: left;
+    background-color: brown;
+}
+.col-2, col {
+    width: 16.66%;
+    float: left;
+    background-color: yellow;
+}
+.col-3, col {
+    width: 25%;
+    float: left;
+    background-color: green;
+}
+.col-4, col {
+    width: 33.33%;
+    float: left;
+    background-color: grey;
+}
+.col-5, col {
+    width: 41.66%;
+    float: left;
+    background-color: grey;
+}
+.col-6, col {
+    width: 50%;
+    float: left;
+    background-color: slateblue;
+}
+.col-7, col {
+    width: 58.33%;
+    float: left;
+    background-color: red;
+}
+.col-8, col {
+    width: 66.66%;
+    float: left;
+    background-color: palegreen;
+}
+.col-9, col {
+    width: 75%;
+    float: left;
+    background-color: yellowgreen;
+}
+.col-10, col {
+    width: 83%;
+    float: left;
+    background-color: burlywood;
+}
+.col-11, col {
+    width: 91.63%;
+    float: left;
+    background-color: palevioletred;
+}
+.col-12, col {
+    width: 100%;
+    float: left;
+    background-color: whitesmoke;
+}
+
+[class*= "col"] {
+    border: .3px solid red;
+    height: 120px;
+    
+}
+
+.hi{
+    height: 350px;
+}
+
+.card {
+    height: 250px;
+}
