@@ -8,12 +8,51 @@
     height: 100px;
     width: 100px;
     background: rgb(26, 26, 206);
-} */
+}
+
+.content{
+    heeight:300px;
+    width: 300px;
+    border: 1px solid green;
+    porition: relative;
+    bottom: 0px;
+    right: 0px;
+    top: 0px;
+}
+
+.two{
+    position: absolute;
+    bottom: 10px;
+    height: 200px;
+    width: 200px;
+    background: red;
+} 
+@media onlu screen and (min-width:600px) and (max-width: 800px){
+    .content{
+        height: 300px;
+        width: 300px;
+        border: 1px solid green;
+        position: relative;
+        bottom: 0px;
+        right: 0px;
+        top: 0px;
+    }
+    .two{
+        position: absolute;
+        bottom: 10px;
+        height: 200px;
+        width: 200px;
+        background: red;
+    }
+}
+
+*/
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 
 }
 
@@ -75,11 +114,11 @@
 .col-12, col {
     width: 100%;
     float: left;
-    background-color: whitesmoke;
+    background-color: aliceblue;
 }
 
 [class*= "col"] {
-    border: .3px solid red;
+    border: 0.3px solid red;
     height: 120px;
     
 }
@@ -88,6 +127,24 @@
     height: 350px;
 }
 
-.card {
-    height: 250px;
+.footer{
+    height: 100px;
+    background-color: pink;
 }
+
+.card-row-1 {
+    height: 200px;
+}
+
+.card-row-2 {
+    height: 300px;
+}
+
+/**
+    * media is a special sign which is used to define 
+    the size of the window on which the queries will work
+
+*/
+/*
+
+
