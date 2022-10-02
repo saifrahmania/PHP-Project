@@ -6,169 +6,146 @@
 	<title>Home</title>
 	<style type="text/css">
 		
-		* {
-			box-sizing: border-box;
-		}
-		
-		
-	/*	.one{
-			border: 1px solid red;
-			height: 50px;
-			width: 30%;
-			float: left;
-		}
-		.two{
-			border: 1px solid green;
-			height: 50px;
-			width: 70%;
-			float: left;
-		}*/
-	.col-one {
-		width:  8.33%;
+	.container{
+		display: flex;
+		justify-content: space-between;
+		border: 2 px solid black;		
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
 	}
-	.col-two {
-		width:  16.66%;
-		background: blue;		
-		
+	/* .container div{
+		width: 250px;
+		height: 250px;
+		background: blue;
+		color: white;
+		padding: 10px;
+		line-height: 20px;
+		text-align: center;
+		border: 1px solid red;
+		align-items:  right;
+	} */
+	p{
+		text-align: justify;
 	}
-	.col-three {
-		width:  25%;
+	div > div + div + div +div > p{
+		background: red;
 	}
-	.col-four {
-		width:  33.33%;
+	div > div + div >h2{
+		background: palegreen;
 	}
-	.col-five {
-		width:  41.66%;
+	/* div p{
+		background-color: pink;
 	}
-	.col-six {
-		width:  50%;
-	}
-	.col-seven {
-		width:  58.33%;
-	}
-	.col-eight {
-		width:  66.66%;
-	}
-	.col-nine {
-		width:  75%;
-	}
-	.col-ten {
-		width:  83.33%;
-	}
-	.col-eleven {
-		width:  91.66%;
-	}
-	.col-twelve {
-		width:  100%;
+	div > div > p{
+		background-color: blueviolet;
 	}
 
-	[class*='col-'] {
-		border: 1px solid green;
-		float: left;
+	div >    + p{
+		background-color: black;
+	}
+	.service1,.service2,.service3{
+		background-color: blue;
 		height: 100px;
+		width: 100px;
+		border: 1px solid wheat;
+		color: yellowgreen;
+	}
+	p ~ul{
+		background: green;
+	}
+	li{
+		background: yellow;
+	}
+	li[name = one]{
+		background: white;
 	}
 
-@media only screen and (min-width: 320px) and (max-width: 760px) {
-	.col-one-sd {
-		width:  8.33%;
+	li[name = two]{
+		background: blue;
 	}
-	.col-two-sd {
-		width:  16.66%;
+	li[name = three]{
+		background: red;
 	}
-	.col-three-sd {
-		width:  25%;
+	ul> li:nth-child(2){
+		background: red;
 	}
-	.col-four-sd {
-		width:  33.33%;
-	}
-	.col-five-sd {
-		width:  41.66%;
-	}
-	.col-six-sd {
-		width:  50%;
-	}
-	.col-seven-sd {
-		width:  58.33%;
-	}
-	.col-eight-sd {
-		width:  66.66%;
-	}
-	.col-nine-sd {
-		width:  75%;
-	}
-	.col-ten-sd {
-		width:  83.33%;
-	}
-	.col-eleven-sd {
-		width:  91.66%;
-	}
-	.col-twelve-sd {
-		width:  100%;
-		background: blanchedalmond;
-	}
-}
-
-@media only screen and (min-width: 761px) and (max-width: 1080px) {
-	.col-one-md {
-		width:  8.33%;
-	}
-	.col-two-md {
-		width:  16.66%;
-	}
-	.col-three-md {
-		width:  25%;
-	}
-	.col-four-md {
-		width:  33.33%;
-	}
-	.col-five-md {
-		width:  41.66%;
-	}
-	.col-six-md {
-		width:  50%;
-	}
-	.col-seven-md{
-		width:  58.33%;
-	}
-	.col-eight-md {
-		width:  66.66%;
-	}
-	.col-nine-md {
-		width:  75%;
-	}
-	.col-ten-md{
-		width:  83.33%;
-	}
-	.col-eleven-md {
-		width:  91.66%;
-	}
-	.col-twelve-md {
-		width:  100%;
-		background: pink;
-	}
-}
-
-	.container {
-		width: 90%;
-		height: 100vh;
-		margin: 0 auto;
-		border: 2px solid;
-	}
-	.row{
-		border: 2px solid red;
-	}
-	.row:after{
-		content: " ";
-		display: block;
-		clear: both; /*Floating behavior controll kore*/
-		border: 2px solid red;
-	}
+	ul> li:nth-child(3){
+		background-color:aqua;
+	} */
 
 	</style>
 
 </head>
 <body>
 	<div class="container">
+		<div>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit perspiciatis similique unde nesciunt hic neque, ad ratione facere? Illo magnam vel quo, omnis corporis provident repellendus quod? Earum, nisi soluta incidunt magni pariatur illo optio dolor odio? Repellendus fugiat facere, eos distinctio molestias praesentium, odio est iure vel ullam explicabo!
+			</p>
+		</div>
+		<div>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae labore itaque, sunt necessitatibus, consectetur nihil veritatis aliquam dolorem temporibus soluta blanditiis nulla adipisci sapiente nam dignissimos quos dicta sed vitae cum voluptates officia similique error. Excepturi, modi nulla. Ab est facere voluptates autem dolore optio! Obcaecati nobis ipsa animi at.
+		</p>
+		</div>
+		<div>
+		<p> 
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis amet, delectus aliquid numquam repudiandae neque natus illo deleniti quis dignissimos. Error incidunt voluptate dolore beatae illum modi fuga, hic deserunt corrupti cumque soluta consequatur explicabo fugit omnis voluptatibus consequuntur ratione nam accusamus, earum ipsa? Voluptatum accusantium dicta impedit incidunt rerum?
+		</p>
+		</div>
+		<div>
+			<p> 
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis amet, delectus aliquid numquam repudiandae neque natus illo deleniti quis dignissimos. Error incidunt voluptate dolore beatae illum modi fuga, hic deserunt corrupti cumque soluta consequatur explicabo fugit omnis voluptatibus consequuntur ratione nam accusamus, earum ipsa? Voluptatum accusantium dicta impedit incidunt rerum?
+			</p>
+		</div>
+		
+	</div>
+		
+		
+
+	
+	
+
+
+
+	<!-- <p>This is a list</p>
+	<ul>
+		<li >1</li>
+		<li >2</li>
+		<li >3</li>
+
+	</ul> -->
+	<!-- <ul>
+		
+		<li><div class="service1">1</div></li>
+		<li><div class="service2">2</div></li>
+		<li><div class="service2">3</div></li>
+		<li><div class="service2">4</div></li>
+		<li><div class="service3">5</div></li>
+		<li><div class="service3">6</div></li>
+	</ul> -->
+	<!-- <div>
+		<p>This is a paragraph</p>
+		<div>
+			
+			<p>This is a paragraph</p>
+			<div>
+				<span>
+					<p>This is a div div paragraph</p>
+					<p>This is a div div  2nd paragraph</p>
+				</span>
+			</div>
+
+		</div>
+		<div>
+			<p>this is another line</p>
+			<p>this is another 2nd line</p>
+		</div>
+		
+
+	</div> -->
+	<!-- <div class="container">
 		<div class="row">
 			<div class="col-two col-twelve-sd col-six-md">row 1</div>
 			<div class="col-eight col-twelve-sd col-six-md">row 2</div>
@@ -183,7 +160,7 @@
 			<div class="col-four">col-2</div>
 			<div class="col-four">col-3</div>
 		</div>
-	</div>
+	</div> -->
 
 </body>
 </html>
