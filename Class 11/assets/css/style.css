@@ -1,0 +1,17 @@
+.container{
+    
+}
+.row{
+    background: blue !important;
+    height: 100px;
+    width: auto;
+}
+.section1{
+    background-color: rgb(13,113,224)!important;
+}
+.section1 h1 span{
+    
+}
+.section2{
+    background: red;
+}
