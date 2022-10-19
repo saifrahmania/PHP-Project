@@ -60,19 +60,112 @@
     //echo $keys[$i] . ' ' . $associative[$keys[$i]] . "\n";
 //}
 
-$myName = "Saifur Rahman";
-$myName = 24;
-//echo $myName;
-$rar=[
-        "f_name"=>[
-        "ff1_name"=>"Muhammad",
-        "ff2_name"=>"Saifur",
-        "middle_name"=>"Rahman",
-        "last_name"=>"Talukder"
-    ],
-    "l_name"=>"Nayeem"];
-//print_r($rar["f_name"]["ff1_name"]);
-print_r($rar["f_name"]["ff1_name"].". ".$rar["f_name"]["ff2_name"]." ".$rar["f_name"]["middle_name"]." ".$rar["f_name"]["last_name"]." ".$rar["l_name"]." ")
+// $myName = "Saifur Rahman";
+// $myName = 24;
+// //echo $myName;
+// $rar=[
+//         "f_name"=>[
+//         "ff1_name"=>"Muhammad",
+//         "ff2_name"=>"Saifur",
+//         "middle_name"=>"Rahman",
+//         "last_name"=>"Talukder"
+//     ],
+//     "l_name"=>"Nayeem"];
+// //print_r($rar["f_name"]["ff1_name"]);
+// print_r($rar["f_name"]["ff1_name"].". ".$rar["f_name"]["ff2_name"]." ".$rar["f_name"]["middle_name"]." ".$rar["f_name"]["last_name"]." ".$rar["l_name"]." ")
 
 
 ?>
+<html>
+
+<head>
+
+//css
+
+<style>
+
+table
+
+{
+
+border-style:solid;
+
+border-width:2px;
+
+border-color:pink;
+
+}
+
+</style>
+
+</head>
+
+<body bgcolor="#EEFDEF">
+
+<?php
+
+$con = mysql_connect("localhost","root","");
+
+if (!$con)
+
+  {
+
+  die('Could not connect: ' . mysql_error());
+
+  }
+
+ 
+
+mysql_select_db("smart", $con);
+
+ 
+
+$result = mysql_query("SELECT * FROM Form");
+
+ 
+
+echo "<table border='1'>
+
+<tr>
+
+<th>Id</th>
+
+<th>name</th>
+
+<th>Mobile</th>
+
+<th>email</th>
+
+</tr>";
+
+ 
+
+while($row = mysql_fetch_array($result))
+
+  {
+
+  echo "<tr>";
+
+  echo "<td>" . $row['Id'] . "</td>";
+
+  echo "<td>" . $row['name'] . "</td>";
+
+  echo "<td>" . $row['Mobile'] . "</td>";
+
+  echo "<td>" . $row['email'] . "</td>";
+
+  echo "</tr>";
+
+  }
+
+echo "</table>";
+
+ 
+
+mysql_close($con);
+
+?>
+
+</body>
+
+</html>
